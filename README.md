@@ -3,6 +3,10 @@ A admin theme for symphony 1.4 whit bootstrap
 
 ## Installation
 ### Repository
+The git submodule way
+```
+git submodule add --recursive https://github.com/jorisros/sfBootstrapPlugin.git plugins/sfBootstrapPlugin
+```
 ### Enable plugin
 Add the plugin to config/ProjectConfiguration.class.php
 ```
