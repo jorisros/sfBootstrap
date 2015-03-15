@@ -4,7 +4,17 @@ A admin theme for symphony 1.4 whit bootstrap
 ## Installation
 ### Repository
 ### Enable plugin
-
+Add the plugin to config/ProjectConfiguration.class.php
+```
+class ProjectConfiguration extends sfProjectConfiguration
+{
+  public function setup()
+  {
+    $this->enablePlugins(
+              'sfBootstrapPlugin',
+               );
+  }
+```
 ### Set layout to bootstrap
 Because bootstrap have the need to html5 we must load a other template
 
