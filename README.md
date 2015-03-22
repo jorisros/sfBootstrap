@@ -35,4 +35,10 @@ to
 ```
   theme:     bootstrap
 ```
-When you generate a module you must add --theme=bootstrap to the commanndline 
+When you generate a module you must add --theme=bootstrap to the commandline
+
+### Publish the assets
+We must publish the new assets with the following command
+```
+./symfony plugin:publish-assets
+```
