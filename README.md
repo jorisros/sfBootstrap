@@ -42,3 +42,9 @@ We must publish the new assets with the following command
 ```
 ./symfony plugin:publish-assets
 ```
+
+### Clear the cache
+We must clear the cache files
+```
+./symfony cc
+```
